@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey for Claire></title>
+    <link href="styles.css" rel="stylesheet"/>
+<body> 
+ <div class="survey"> 
+ <h1 id="title">Enquête pour Claire's   supporters</h1>
+ <p id="description">Merci de prendre le temps d'aider et d'encourager Claire.</p>
+<form id="survey-form">
+ <label id="name-label">Nom<p></p><input id="name" type="text" placeholder="Entrez votre nom s.v.p." required></label></p>
+ <p>Prénom </p>
+ <input id="name" type="text" required placeholder="Entrez votre prénom s.v.p."></input></p>
+<label id="email-label">Email<p></p><input id="email" type="email" placeholder="Entrez votre email s.v.p." required></label>
+</p>
+<label id="number-label">Âge (optionnel)<p></p><input id="number" type="number" min="1" max="150" placeholder="Âge"></input></label></p>
+ Quelle option décrit le mieux votre lien avec Claire ?</p>
+ <select id="dropdown">
+  <option value="1">Choisissez une option</option>  
+  <option value="1">Famille</option>
+  <option value="2">Ami</option>
+  <option value="2">Connection</option>
+ </select>
+ <p>À quelle fréquence communiquez-vous avec Claire ?</p>
+ <input type="radio" name="fréquence" value="jamais">Jamais</input>
+ <input type="radio" name="fréquence" value="occasionnellement">Occasionnellement</input>
+ <input type="radio" name="fréquence" value="régulièrement">Régulièrement</input>
+ <input type="radio" name="fréquence" value="fréquemment">Fréquemment</input>   
+ <input type="radio" name="fréquence" value="constamment">Constamment</input></p>
+<p>Quelle amélioration voudriez-vous voir chez Claire?</p>
+<input type="checkbox" name="personality" value="meilleure communication">
+<label for="meilleure communication">Meilleure communication</label></p>
+<input type="checkbox" name="personality" value="plus souriante">
+<label for="plus souriante">Plus souriante</label></p>
+<input type="checkbox" name="personality" value="moins auto-centrée"><label for="moins auto-centrée">Moins auto-centrée</label></p>
+<input type="checkbox" name="personality" value="moins stressée"><label for="moins stressée">Moins stressée</label></p>
+<input type="checkbox" name="personality" value="Plus sociable"><label for="plus sociable">Plus sociable</label></p>
+<p>Autres commentaires:</p><textarea></textarea></p>
+<button id="submit" type="submit">Envoyer</button>
+ </form>
+</body>
+</div>
+</html>
